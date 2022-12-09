@@ -31,5 +31,11 @@ public class Main {
         }
         System.out.println(" Минимальная сумма трат за месяц составила " + min+" рублей "+ "  " +
                 " Максимальная сумма затрат за месяц составила " + max+" рублей ");
+        //task3
+        int medium=0;
+        for (int i = 0; i < arr.length; i++) {
+            medium+=arr[i]/ arr.length;
+        }
+        System.out.println(" Средняя сумма составила " + medium+ " рублей ");
     }
 }
